@@ -9,5 +9,9 @@ import { Component } from "@angular/core";
 
 
 export class PersonasComponent{
-    
+    deshabilitar = false;
+    msj ='No se ha agregado ninguna persona'
+    addPerson(){
+        return this.msj='Persona Agregada'
+    }
 }
